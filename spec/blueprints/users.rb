@@ -1,0 +1,2 @@
+User.blueprint do
+end
