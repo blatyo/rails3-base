@@ -8,11 +8,13 @@ gem 'rails', '3.0.0.beta3'
 gem 'mysql'
 gem 'devise', '1.1.rc1'
 
+group :development, :test do
+  gem 'rspec', '2.0.0.beta.10'
+  gem 'rspec-rails', '2.0.0.beta.10'
+  gem 'machinist'
+  gem 'rails3-generators'
+end
 
-gem 'rspec', '2.0.0.beta.10'
-gem 'rspec-rails', '2.0.0.beta.10'
-gem 'machinist'
-gem 'rails3-generators'
 
 # Use unicorn as the web server
 # gem 'unicorn'
