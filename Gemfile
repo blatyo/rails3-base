@@ -13,6 +13,12 @@ group :development, :test do
   gem 'rspec-rails', '2.0.0.beta.10'
   gem 'machinist'
   gem 'rails3-generators'
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'cucumber-rails'
+  gem 'cucumber', '0.7.2'
+  gem 'spork'
+  gem 'launchy'
 end
 
 
