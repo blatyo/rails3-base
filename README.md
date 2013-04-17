@@ -1,4 +1,5 @@
-= Rails 3 Base App
+Rails 3 Base App
+================
 This is a generic base application which other rails apps can use as a place to start. It includes:
 
 * Authentication (via Devise)
